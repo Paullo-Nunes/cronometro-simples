@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body {
+    background: #5b5b5b;
+}
+
+.container {
+    background: #404042;
+    width: 500px;
+    height: 400px;
+    margin: 150px auto;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+h2 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.cronometro {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.start, .stop {
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.start {
+    margin-right: 15px;
+}
