@@ -9,3 +9,7 @@ function start() {
     }, 1000)
 
 }
+
+function stop() {
+    clearInterval(cron)
+}
