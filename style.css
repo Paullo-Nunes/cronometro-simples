@@ -36,7 +36,16 @@ h2 {
     padding: 10px 30px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 
+}
+
+.start:hover, .stop:hover {
+    opacity: 0.8;
+}
+
+.start:active, .stop:active {
+    opacity: 0.6;
 }
 
 .start {
