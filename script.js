@@ -6,6 +6,6 @@ function start() {
     cron = setInterval( function() {
         number++
         h2.innerHTML = number
-    })
+    }, 1000)
 
 }
